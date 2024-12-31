@@ -4,9 +4,7 @@ Welcome to my project portfolio! This repository showcases a collection of my pr
 
 ### Projects Included
 
-1. **[Project Name 1](#)**: Brief description of the project, its purpose, and key features.
-2. **[Project Name 2](#)**: Brief description of the project, its purpose, and key features.
-3. **[Project Name 3](#)**: Brief description of the project, its purpose, and key features.
+1. **[Portfolio](http://127.0.0.1:5500/portfo_1/Profolio.html)**: just for fun, no posepure in this project.
 
 ### Technologies Used
 
