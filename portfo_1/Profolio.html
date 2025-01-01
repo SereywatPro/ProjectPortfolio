@@ -6,39 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        <a href="#" class="logo">Joe</a>
+        <a href="#" data-aos="flip-up" data-aos-duration="1000" class="logo">Joe</a>
         <nav>
-            <a href="#" class="active">Home</a>
-            <a href="#">Services</a>
-            <a href="#">Education</a>
-            <a href="#">Experience</a>
-            <a href="#">Contact</a>
+            <a href="#" data-aos="fade-in" data-aos-duration="1000"  data-aos-delay="100" class="active">Home</a>
+            <a href="#"  data-aos="fade-in" data-aos-duration="1000" data-aos-delay="150">Services</a>
+            <a href="#"  data-aos="fade-in" data-aos-duration="1000" data-aos-delay="200">Education</a>
+            <a href="#"  data-aos="fade-in" data-aos-duration="1000" data-aos-delay="250">Experience</a>
+            <a href="#"  data-aos="fade-in" data-aos-duration="1000" data-aos-delay="300">Contact</a>
 
         </nav>
     </header>
     <section class="home-page">
         <div class="home-image">
-            <img src="./assets/mainImage.jpg" alt="mushashi">
+            <img data-aos="fade-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"
+             data-aos-easing="ease"
+                src="./assets/mainImage.jpg" alt="mushashi">
         </div>
         <div class="home-content">
-            <h1>Hi it's <span>Joe</span></h1>
-            <div class="animation">
-                I'm a 
+            <h1 data-aos="fade-left" data-aos-duration="1000" >Hi it's <span>Joe</span></h1>
+            <div data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000" class="animation">
+                I'm a
             </div>
-            <div class="caption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam non sapiente corrupti
+            <div data-aos="fade-left" data-aos-delay="150" data-aos-duration="1000" class="caption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam non sapiente corrupti
                 aspernatur vitae consequuntur tempora excepturi expedita laudantium, aperiam vero consectetur, rem ipsam
                 distinctio autem quo blanditiis quia debitis.
             </div>
             <div class="social-icons">
-                <a href="#" class="fa-brands fa-linkedin"></a>
-                <a href="#" class="fa-brands fa-github"></a>
-                <a href="#" class="fa-brands fa-x-twitter"></a>
-                <a href="#" class="fa-brands fa-instagram"></a>
+                <a href="#" class="fa-brands fa-linkedin" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="100"></a>
+                <a href="#" class="fa-brands fa-github" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="150"></a>
+                <a href="#" class="fa-brands fa-x-twitter" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200"></a>
+                <a href="#" class="fa-brands fa-instagram" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="250"></a>
             </div>
             <div class="parents-btn">
                 <a href="#" class="btnh">click-me</a>
@@ -47,6 +50,12 @@
 
     </section>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            // offset: 1
+        });
+    </script>
 </body>
 
 </html>
