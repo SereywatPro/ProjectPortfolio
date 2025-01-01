@@ -54,13 +54,14 @@ nav a{
     font-size: 1.8rem;
     transition: .3s ease;
     border-bottom: 2px solid transparent;
+   
 }
 
 nav a.active{
     font-size: 1.8rem;
     color: #00fff2;
     font-weight: 500;
-    transition: .5 ease;
+    transition:all .5 ease;
     border-bottom: 2px solid #00e1ff;
     
 }
